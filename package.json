@@ -1,9 +1,14 @@
 {
-  "name": "2708-node-lib-md",
+  "name": "GTEXTS-ISABELLA",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Essa é uma lib capaz de receber textos dinâmicamente e manipulá-los para que sejam exibidos no terminal.",
+  "keywords": ["markdown", "URL"],
+  "bin": {
+    "<gerenciador-de-textos>": "./cli.js"
+  },
+  "main": "./cli.js",
   "type": "module",
+  "preferGlobal":true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
     "cli": "node cli.js ./arquivos/texto.md",
@@ -11,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+    "url": "git+https://github.com/isabellacoliveira/projeto_artigos"
   },
   "keywords": [],
-  "author": "",
+  "author": "Isabella Oliveira",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alura-cursos/2708-node-lib-md/issues"
+    "url": "https://github.com/isabellacoliveira/projeto_artigos/issues"
   },
-  "homepage": "https://github.com/alura-cursos/2708-node-lib-md#readme",
+  "homepage": "https://github.com/isabellacoliveira",
   "dependencies": {
     "chalk": "5.0.1"
   }
